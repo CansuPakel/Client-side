@@ -1,0 +1,74 @@
+/**
+ * Stylesheet 
+ *
+ * @author		Bram(us) Van Damme <bramus.vandamme@kahosl.be>
+ * @author		Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+
+/*********************************************
+ * CLEARFIX
+ *********************************************/
+
+.clearfix:after { 
+	content: ""; 
+	display: table; 
+	clear: both; 
+} 
+.clearfix { 
+	zoom: 1; 
+}
+
+
+/*********************************************
+ * RESET
+ *********************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+img {
+	border: 0;
+}
+	
+/* ===========================================
+	 Helpers & Starters
+	 =========================================== */
+
+.structural {
+	position: absolute;
+	left: -9999px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.ir {
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 4rem; 
+	height: 4rem; 
+	background-size: 1100% 300%; 
+	background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+}
+
+ul.inline li {
+	display: inline-block;
+}
+
+
+
+/*
+.ir bakcground 1100% 300%
+.facebook: background-position: 0 -4.2rem;*/
+
