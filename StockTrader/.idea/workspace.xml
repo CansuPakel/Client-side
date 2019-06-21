@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e784294-e206-424f-9e9b-8aaee6f06790" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/stocks/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/components/Portfolio.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/components/PortfolioStock.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/components/Stock.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/components/StockTrader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/components/Stocks.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/src/store.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stocks/src/components/Header.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stocks/src/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="103" column="10" lean-forward="true" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stocks/src/components/Stock.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stocks/src/components/Stocks.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stocks/src/components/StockTrader.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stocks/src/components/PortfolioStock.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stocks/src/components/Portfolio.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>name</find>
+      <find>na</find>
+      <find>prij</find>
+      <find>stock</find>
+      <find>prijs</find>
+      <find>amount</find>
+      <find>context</find>
+      <find>order</find>
+      <find>payload</find>
+      <find>stockPrice</find>
+      <find>res</find>
+      <find>fundsGet</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>naam</replace>
+      <replace>prijs</replace>
+      <replace>quantity</replace>
+      <replace>commit</replace>
+      <replace>item</replace>
+      <replace>oldPrice</replace>
+      <replace>response</replace>
+      <replace>getFunds</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/stocks" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/stocks/src/store/store.js" />
+        <option value="$PROJECT_DIR$/stocks/src/App.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/main.js" />
+        <option value="$PROJECT_DIR$/stocks/src/components/StockTrader.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/Portfolio/Stock.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/Portfolio/Portfolio.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/Portfolios" />
+        <option value="$PROJECT_DIR$/stocks/src/components/Port.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/Portfolios.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/PortfolioItem.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/PortfolioItems.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/portfolioItem.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/Stock.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/Portfolio.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/routes.js" />
+        <option value="$PROJECT_DIR$/stocks/src/components/Stocks.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/PortfolioStock.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/components/Header.vue" />
+        <option value="$PROJECT_DIR$/stocks/src/store.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="268" />
+    <option name="y" value="23" />
+    <option name="width" value="1007" />
+    <option name="height" value="721" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="labo05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo05" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo05" type="462c0819:PsiDirectoryNode" />
+              <item name="stocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo05" type="462c0819:PsiDirectoryNode" />
+              <item name="stocks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stocks/src/components" />
+      <recent name="$PROJECT_DIR$/stocks/src/assets" />
+      <recent name="$PROJECT_DIR$/stocks/src/components/Stock" />
+      <recent name="$PROJECT_DIR$/stocks/src/components/Portfolio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stocks/src/components/Portfolio" />
+      <recent name="$PROJECT_DIR$/stocks/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Header.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/labo05/stocks/src/components/Header.vue" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Header.vue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e784294-e206-424f-9e9b-8aaee6f06790" name="Default Changelist" comment="" />
+      <created>1553598482038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553598482038</updated>
+      <workItem from="1553598483229" duration="405000" />
+      <workItem from="1553757511737" duration="4911000" />
+      <workItem from="1553762986580" duration="84000" />
+      <workItem from="1553763098381" duration="18069000" />
+      <workItem from="1554448741685" duration="3189000" />
+      <workItem from="1554452076186" duration="18392000" />
+      <workItem from="1561119941994" duration="3736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48786000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="268" y="23" width="1007" height="721" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22920893" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290938" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2491731" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stocks/src/store/store.js" />
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/Head.vue" />
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/Portfolios" />
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/Portfolios.vue" />
+    <entry file="file://$PROJECT_DIR$/stocks/src/assets/Stock.vue" />
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/PortfolioItems.vue" />
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/portfolioItem.vue" />
+    <entry file="file://$PROJECT_DIR$/stocks/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#149#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/StockTrader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/PortfolioStock.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/Portfolio.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/Stock.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/Stocks.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/PortfolioItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Portfolio.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="53" column="5" selection-start-line="48" selection-start-column="3" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/src/components/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="103" column="10" lean-forward="true" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
