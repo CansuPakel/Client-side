@@ -1,8 +1,8 @@
 <b>With Vue.js</b>
 
 API => 
-  npm install 
-	node app.js
+  * npm install 
+  * node app.js
 
 src => 
   npm install
