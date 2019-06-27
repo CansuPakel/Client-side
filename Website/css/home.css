@@ -1,0 +1,455 @@
+
+/**
+ *
+ * @author Cansu Pakel
+ *
+ */
+ 
+/* ===========================================
+   BANNER
+   =========================================== */
+.banner{
+	width:100%;
+	display: block;
+	position: relative;
+}
+
+.banner > .fotoBanner{
+	width:100%;
+	display: block;
+	height: 35rem;
+}
+
+.informatie{
+	position: absolute;
+	float: left;
+	max-width: 40rem;
+	padding:2rem;
+	color:white;
+	margin-top:-30rem;
+	z-index: 1;
+}
+
+.informatie p:first-child{
+	font-size: 4rem;
+	font-family: Teko, "sans serif";
+}
+
+.informatie p:nth-child(2){
+	color:#996633;
+	padding-bottom:1rem;
+}
+
+.informatie p:nth-child(3){
+	padding-bottom: 2rem;
+}
+
+.informatie a{
+	margin-top:3rem;
+	border: 0.1rem solid white;
+	text-align:center;
+	padding:0.6rem 2rem 0.6rem 2rem;
+	font-size: 0.8rem;	
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* ===========================================
+   MAIN
+   =========================================== */
+
+.meestGekozen{
+	height:64rem;
+}
+
+.Koffie1, .Koffie2, .Koffie3{
+	float:left;
+	width:100%;
+	text-align: center;
+	margin: 2rem auto;
+}
+
+
+.Koffie1 h3, .Koffie2 h3, .Koffie3 h3{
+	font-size:2rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-bottom: 1.2rem;
+}
+
+.Koffie1 p, .Koffie2 p, .Koffie3 p{
+	padding:0rem 4.4rem 1.2rem 4.4rem;
+}
+
+.Koffie3 p {
+	border: none;
+}
+
+
+.Koffie1 a, .Koffie2 a, .Koffie3 a{
+	color:#996633;
+	text-decoration: none;
+
+}
+.soortenAanbiedingenFoto{
+	height:38rem;
+	background: hsl(28, 40%, 58%,0.3);
+}
+
+
+
+.soortenAanbiedingenFoto > p{
+	color:#7f7f7f;
+	padding-top: 2rem;
+}
+
+
+.soortenAanbiedingenFoto > h2{
+	font-size:3rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-bottom: 1rem;
+}
+
+.soortenAanbiedeningen{
+	border: solid black 0.01rem;
+	padding:0.5rem;
+	float:left;
+	width:100%;
+	background-color: white;
+
+}
+
+.soortenAanbiedeningen > div{
+	padding:0.9rem;
+}
+
+.soortenAanbiedeningen  p:first-child{
+	font-size:1.5rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+
+.prijs{
+	color:#996633;
+	font-weight: bold;
+}
+
+.joinToday{
+	width:100%;
+	height: 182rem;
+	margin-bottom: 7rem;
+}
+
+.joinToday > p{
+	margin-top:7rem;
+	color:#7f7f7f;
+
+}
+
+.joinToday > h2{
+	font-size:3rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-bottom: 1rem;
+}
+
+
+.joinToday img{
+	width:25rem;
+}
+.joinToday ul li{
+	float:left;
+	width:100%;
+}
+
+.joinToday figure{
+	width:24.8rem;
+}
+
+
+
+
+
+.joinToday figcaption{
+	border: solid black 0.1rem;
+	padding:0.5rem;
+	width:100%;
+	margin-bottom: 2rem;
+}
+.joinToday .figLinks{
+	font-size:2rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-right: 2rem;
+	border-right: solid #C3C3C3 0.008rem;
+}
+
+.joinToday .figLinks{
+	padding-left:1rem;
+}
+
+.joinToday .figRechts{
+	padding-left:1rem;
+	font-weight:bold;
+	font-size:1.2rem;
+	font-weight: bold;
+}
+
+
+.bannergiftCards{
+	width:100%;
+	display: block;
+	position: relative;
+}
+
+.bannergiftCards > .fotogiftCards{
+	width:100%;
+	display: block;
+	height: 36rem;
+
+}
+
+.kaderGiftCards{
+	margin:-30rem;
+	margin-left:0%;
+	padding: 4rem 0rem 4rem 0rem;
+	position: absolute;
+	text-align: center;
+	background-color: hsl(28, 40%, 58%,0.9);
+	width: 100%;
+	z-index: 1;
+}
+
+
+.kaderGiftCards > p:first-child{
+	color:#7f7f7f;
+	text-transform: uppercase;
+
+}
+
+
+.kaderGiftCards > h2{
+	font-size:3rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-bottom: 1rem;
+}
+
+.kaderGiftCards > p:nth-child(3){
+	padding-bottom: 2rem;
+}
+
+.kaderGiftsCards  a{
+	padding:2rem;
+	margin:2rem;
+	border: solid 2rem black;
+}
+
+.linkVormButtonGift{
+	text-transform: uppercase;
+	text-decoration: none;
+	border: solid #996633 0.1rem;
+	padding: 0.8rem 2.5rem 0.8rem 2.5rem;
+	color:black;
+}
+
+
+.meningen{
+	margin-top:3rem;
+	height: 80rem;
+}
+.meningen div{
+	float:left;
+	width:100%;
+	border: solid #C3C3C3 0.008rem;
+	padding: 2.2rem 2.3rem;
+	margin-top:5rem;
+	margin-bottom:2.2rem;
+	height: 20rem;
+	text-align: center;
+	line-height: 2rem;
+}
+
+.meningen blockquote::before{
+	content:url('../img/quotations.png') ;
+	margin-right:1rem;
+}
+
+.meningen div p {
+	color:#996633;
+	padding-top: 2rem;
+	size:1.4rem;
+	font-weight: bold;
+}
+.meningen img {
+	margin-top:-17rem;
+	border-radius: 50%;
+}
+
+
+/* ===========================================
+   RESPONSIVE breakpoint 1
+   =========================================== */
+
+@media (min-width: 30em) { 
+	.soortenAanbiedeningen{
+		width:100%;
+	}
+
+	.soortenAanbiedingenFoto{
+		background-size:50% 100%;
+				height:30rem;
+
+	}
+
+	.joinToday{
+		height:87rem;
+	}
+
+	.joinToday img{
+		width:25rem;
+	}
+
+
+
+	.joinToday ul li{
+		
+		width:100%;
+
+	}
+
+	.joinToday figcaption{
+		border: solid black 0.1rem;
+		padding:0.5rem;
+		width:100%;
+		margin-bottom: 2rem;
+	}
+}
+
+/* ===========================================
+   RESPONSIVE breakpoint 2
+   =========================================== */
+
+@media (min-width: 46em) { 
+	.informatie{
+			margin-left:4%;
+	}
+
+	.banner{
+		 margin-top: 0rem;
+	}
+	
+	.meestGekozen{
+		margin-top:3rem;
+		height:27rem;
+	}
+
+	.Koffie1, .Koffie2, .Koffie3{
+		max-width: 33.33%;
+	}
+
+	.Koffie1 p, .Koffie2 p, .Koffie3 p{
+		padding:0rem 4.4rem 1.2rem 4.4rem;
+		border-right:solid 0.1rem #7f7f7f;
+	}
+
+	.Koffie3 p {
+		border: none;
+	}
+
+.joinToday img{
+		width:21rem;
+	}
+
+
+
+	.joinToday figcaption{
+		border: solid black 0.1rem;
+		padding:0.5rem;
+		width:85%;
+		margin-bottom: 2rem;
+	}
+
+	.joinToday{
+		height:60rem;
+	}
+
+	.joinToday ul li{
+		float:left;
+		width:33.33%;
+	}
+
+
+	.meningen{
+		margin-top:6rem;
+		height: 28rem;
+	}
+	
+	.meningen div{
+		float:left;
+		width:28.5%;
+		padding: 2rem 0.6rem;
+		margin:2rem 1.4rem;
+		height: 21rem;
+	}
+
+	.meningen div p {
+		padding-top: 1rem;
+	}
+
+	.soortenAanbiedeningen{
+		width:45%;
+	}
+
+	.soortenAanbiedingenFoto{
+		background: hsl(28, 40%, 58%,0.3) url("../img/koffie.jpg") 97% 100% no-repeat;
+	}
+}
+
+
+/* ===========================================
+   RESPONSIVE breakpoint 3
+   =========================================== */
+
+@media (min-width: 50em) { 
+	.kaderGiftCards{
+		margin:-28rem;
+		margin-left:25%;
+		padding: 4rem 8rem 4rem 8rem;
+		position: absolute;
+		text-align: center;
+		background-color: hsl(28, 40%, 58%,0.9);
+		width: 50%;
+		z-index: 1;
+	}
+
+	.soortenAanbiedeningen {
+		width: 30%;
+		margin-left: 10%;
+	}
+
+	.soortenAanbiedingenFoto >  h2{
+		margin-left:10%;
+	}
+
+	.soortenAanbiedingenFoto > p {
+		margin-left:10%;
+	}
+
+	.soortenAanbiedingenFoto {
+		background: hsl(28, 40%, 58%,0.3) url(../img/koffie.jpg) 85% 75% no-repeat;
+	}
+
+
+
+}

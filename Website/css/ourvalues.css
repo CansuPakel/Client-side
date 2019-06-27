@@ -1,0 +1,281 @@
+
+/**
+ *
+ * @author Cansu Pakel
+ *
+ */
+/* ===========================================
+   BANNER
+   =========================================== */
+.banner{
+	width:100%;
+	display: block;
+	overflow:hidden;
+}
+
+.banner > .fotoBanner{
+	width:100%;
+	display: block;
+	height: 18rem;
+	opacity: 0.5;
+	position: relative;
+}
+
+.breadcrumb{
+	position: absolute;
+	background-color: white;
+	width:100%;
+	padding:0.6rem;
+}
+
+
+.banner h2{
+	position: absolute;
+	margin-top: 9rem;
+	left: 50%;
+	width:100%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.bannerTitle{
+	font-size:5rem;
+	text-transform: uppercase;
+}
+
+.breadcrumb li{
+	border-bottom: solid 0.1rem hsl(28, 40%, 58%,0.1);
+	padding:0.5rem;
+}
+
+.breadcrumb a{
+	font-size:1.2rem;
+	text-align: center;
+	text-decoration: none;
+	padding:0.2rem;
+}
+
+.LastBreadcrumb{
+	color:black;
+}
+.SecondBreadcrumb{
+	font-weight: 900;
+}
+
+/* ===========================================
+   MAIN
+   =========================================== */
+.CareSuccessSafety{
+	height:103rem;
+}
+
+.Care{
+	margin-top: 28rem;
+}
+
+.Safety{
+	margin-bottom:3rem;
+}
+
+.Success, .Safety{
+	margin-top: 3rem;
+}
+
+.Care, .Success, .Safety{
+	float:left;
+	width:100%;
+	padding:1rem;
+	text-align: center;
+}
+
+
+.Care h3, .Success h3, .Safety h3{
+	font-size:2.2rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-bottom: 1.2rem;
+	margin-top: 1rem;
+}
+
+
+.Care p, .Success p, .Safety p{
+	margin-bottom: 3rem;
+}
+
+.button{
+	color:black;
+	text-decoration: none;
+	padding: 0.5rem 3rem 0.5rem 3rem;
+	border:0.13rem solid #996633;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Teko;
+	letter-spacing: .2rem;
+	font-size:1rem;
+}
+
+
+
+.button:after{
+	padding-bottom:0.3rem;
+	content:" →";
+}
+
+.fresh img{
+	width:100%;
+}
+
+.fresh{
+	height:58rem;
+	position:relative;
+}
+
+.freshText{
+	background-color: hsl(28, 40%, 58%,0.1);
+	width: 100%;
+	padding-top:3rem;
+	padding: 2rem 2rem 2rem 2rem;
+	position: absolute;
+	text-align: center;
+}
+
+
+.freshText > p:first-child{
+	color:#7f7f7f;
+	text-transform: uppercase;
+
+}
+
+
+.freshText > h3{
+	font-size:3rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-bottom: 1rem;
+}
+
+.freshText > p:nth-child(3){
+	padding-bottom: 2rem;
+}
+
+
+.GuestsOpenMind{
+	height: 27rem;
+}
+
+.Guests{
+	float:left;
+	width:100%;
+	text-align: center;
+	margin: 1rem auto;
+}
+
+ .OpenMind{
+	float:right;
+	width:100%;
+	text-align: center;
+	margin: 1rem auto;
+	margin-top:3rem;
+}
+
+ .Guests h3, .OpenMind h3{
+	font-size:2.2rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-bottom: 1.2rem;
+	margin-top: 1rem;
+}
+
+
+.Guests p, .OpenMind p{
+	margin-bottom: 3rem;
+}
+
+
+/* ===========================================
+   RESPONSIVE breakpoint 1
+   =========================================== */
+
+@media (min-width: 37em) { 
+	.fresh{
+		height: 74rem;
+	}
+}
+
+
+/* ===========================================
+   RESPONSIVE breakpoint 2
+   =========================================== */
+
+@media (min-width: 50em) { 
+
+	main > section {
+		margin-top: 25%;
+	}
+
+	.banner{
+		position: relative;
+	}
+
+	.breadcrumb {
+		bottom:3rem;
+		right:50%;
+		transform: translateX(50%);
+		width: 20rem;
+		text-align: center;
+		background: white;
+		padding: 0.6rem;
+	}
+
+	.breadcrumb a{
+		font-size:1rem;
+	}
+
+	.breadcrumb li{
+		border-bottom: none;
+		display: inline-block;
+		padding:0rem;
+	}
+	
+	.Care, .Success, .Safety{
+		margin-top:30%;
+		float:left;
+		max-width: 33.33%;
+		padding:1rem;
+		text-align: center;
+		margin: 1rem auto;
+	}
+
+	.CareSuccessSafety{
+		height: 35rem;
+	}
+
+	.fresh {
+		height:86rem;
+	}
+
+	.Guests{
+		float:left;
+		max-width: 45%;
+		padding:1rem;
+		text-align: center;
+		margin: 1rem auto;
+	}
+
+	.OpenMind{
+		float:right;
+		max-width: 45%;
+		padding:1rem;
+		text-align: center;
+		margin: 1rem auto;
+	}
+	
+	.GuestsOpenMind {
+		margin-top: 4%;
+	}
+
+}

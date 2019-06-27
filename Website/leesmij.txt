@@ -1,0 +1,4 @@
+Gebruikte fonts
+
+* Teko (Google fonts)
+* Open sans (Google fonts)

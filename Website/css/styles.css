@@ -1,0 +1,428 @@
+/**
+ *
+ * @author Cansu Pakel
+ *
+ */
+/* ===========================================
+   GENERAL
+   =========================================== */
+html {
+	font-size: 75%
+}
+
+
+* {
+	margin: 0; 
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Open sans, "sans serif"; 
+	color: #222;
+	margin:0;
+	padding:0;
+}
+
+body > header {
+	width: 100%;
+	height:76rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Teko, "sans serif";
+}
+
+a{
+	color: #996633;
+}
+
+.wrapper {
+	margin: 0 auto;
+	min-width: 32rem;
+	max-width: 96rem;
+	padding: 0 1rem;
+}
+
+.wrapper2 {
+	margin: 24% auto;
+	min-width: 32rem;
+	max-width: 80rem;
+	padding: 0 0rem;
+}
+
+.wrapper3 {
+	margin: 24% auto;
+    min-width: 32rem;
+    max-width: 96rem;
+    padding: 0 0rem;
+}
+
+.wrapper5 {
+	margin: 0% auto;
+    min-width: 32rem;
+    max-width: 96rem;
+    padding: 0 0rem;
+}
+
+/* ===========================================
+   LOGO
+   =========================================== */
+h1 {
+	float:left;
+	margin:2rem;
+	padding-left:3rem;
+	display: block; /* only block level elements can have width / height */
+	width: 15.1rem; /* stretch link to desired width */
+	height: 7.4rem; /* stretch link to desired height */
+	white-space: nowrap; /* single line of text */
+	text-indent: 100%; /* push text outside */
+	overflow: hidden;  /* hide text outside */
+	background-size: 100% 100%; /* stretch background image */
+	background: url("../img/logo.png") left top no-repeat;
+}
+
+
+/* ===========================================
+   MENU
+   =========================================== */
+nav {
+	background-color: hsl(28, 40%, 58%,0.3);
+	width: 100%;
+	list-style: none;
+	font-size:1.2rem;
+	font-weight: bold;
+	float:right;
+	display: block;
+	padding:1rem;
+}
+
+nav li {
+	margin-top:2.5rem;
+	text-transform: uppercase;	
+}
+
+nav li:last-child{
+	border: solid black 0.1rem;
+	text-align:center;
+	padding:0.6rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 0.8rem;
+}
+
+nav a {
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+
+nav a:hover, nav a.selected, nav a.active {
+	border-bottom: 0.3rem solid #996633;
+	font-weight: 100;
+	color: #996633;
+}
+
+.aangeduid{
+	border-bottom: 0.3rem solid #996633;
+	font-weight: 100;
+	color: #996633;
+}
+
+nav ul li:last-child a:hover{
+	border-bottom:none;	
+	color: black;
+}
+.pijl{
+	width:0;
+	height: 0; 
+	border-left: 0.5rem solid transparent;
+	border-right: 0.5rem solid transparent;
+	border-top: 0.5rem solid black;
+}
+
+nav ul{
+	width: 100%
+}
+
+
+.dropdown-content a:after{
+	padding:0rem;
+	content: "";
+	color:#ededed;
+}
+
+nav ul li:last-child a:after{
+	padding:0rem;
+	content: "";
+	color:#ededed;
+}
+
+.linkVormButton{
+	border: solid black 0.1rem;
+	text-align:center;
+	padding:0.1rem;
+	font-size: 0.8rem;	
+}
+
+.dropdown-content a {
+	color: black;
+	margin: 1rem 1.6rem;
+	padding:1rem 0rem;
+	text-decoration: none;
+	display: block;
+	border-bottom: solid 0.1rem #f2f2f2;
+}
+
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+/* ===========================================
+   FOOTER
+   =========================================== */
+
+ul{
+	list-style-type: none;
+}
+
+.deurmatLinks{
+	width:100%;
+	margin-bottom: 4rem;
+}
+
+.deurmatRechts{
+	width: 100%;
+	margin-bottom: 4rem;
+}
+
+.deurmatMidden{
+	width: 100%;
+	margin-bottom: 4rem;
+}
+
+.deurmatLinks h3, .deurmatRechts h3, .deurmatMidden h3{
+	font-size:1.5rem;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-bottom: 1.2rem;
+}
+
+.footerDikte{
+	font-weight: bold;
+}
+
+.deurmatLinks a, .deurmatRechts a {
+	text-decoration: none;
+}
+.deurmatLinks p:nth-child(3){
+	padding-top: 2rem;
+}
+
+.deurmatLinks p:nth-child(4){
+	padding-top: 2rem;
+}
+
+.deurmatMidden ul{
+	border: solid #996633 0.1rem;
+	padding:2.5rem 1rem 2.5rem 1rem;
+}
+
+.deurmatMidden ul li{
+	border-bottom: solid #f7f7f7 0.01rem;
+	padding:0.5rem;
+	line-height: 1.8rem;
+
+}
+.deurmatMidden ul li:last-child { 
+	border-bottom: none;
+}
+
+
+.openingsuren{
+	float: right;
+	font-weight: 900;
+}
+
+.deurmatRechts{
+	width:100%;
+}
+
+.deurmatRechts ul li{
+	text-decoration: none;
+	border-bottom: solid #f7f7f7 0.01rem;
+	padding:0.5rem;
+}
+
+.join{
+	background-color: hsl(28, 40%, 58%,0.3);
+	height:8rem;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	width:100%;
+}
+
+.join p {
+	margin-left:12%;
+	padding-bottom: 2rem;
+	color:#996633;
+}
+
+.join h3{
+	text-transform: uppercase;
+	font-size:1.5rem;
+	margin-left:12.5%;
+	padding-top:3rem;
+}
+
+section.col > a{
+ 	float: right;
+	width: 5%;
+}
+
+section.col > p{
+	float:left;
+	width: 90%;
+	text-align: center;
+}
+
+section.col > p, section.col > a{
+	border-top: solid #f7f7f7 0.01rem;
+	padding:1rem;
+}
+
+section.col > a {
+	float:left;
+	display: block;
+	width: 1.6rem;
+	height: 1.6rem;
+	white-space: nowrap;
+	text-indent: 100%;
+	overflow: hidden;
+	background-size: 90% 100%;
+	background: url("../img/arrows.png") bottom no-repeat;
+}
+
+
+/* ===========================================
+   RESPONSIVE breakpoint 1
+   =========================================== */
+
+@media(min-width: 50em){
+	
+	body > header {
+		height:12.43rem;
+		width:100%;
+	}
+
+	nav {
+		width:auto;
+		float:right;
+		display: block;
+		margin-top: 2rem;
+		font-size: 1rem;
+		padding-right:3rem;
+		background-color: white;
+	}
+
+	nav li {
+		display: inline-block;	
+	}
+
+	nav ul a:after{
+		padding:0.5rem;
+		content: "•";
+		color:#ededed;
+	}
+
+	.dropbtn {
+		border: none;
+		cursor: pointer;
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 8rem;
+		z-index: 1;
+	}
+
+	.dropdown-content a {
+		margin:0rem 0rem;
+		padding:1rem 1.6rem;
+		border:none;
+	}
+}
+
+
+
+/* ===========================================
+   RESPONSIVE breakpoint 2
+   =========================================== */
+@media(min-width: 40em){
+	html {
+		font-size: 68.8%
+	}
+
+	.wrapper3 {
+		margin: 24% auto;
+		min-width: 32rem;
+		max-width: 96rem;
+		padding: 0 0rem;
+	}
+
+	.wrapper4 {
+		margin: 106% auto;
+		min-width: 32rem;
+		max-width: 96rem;
+		padding: 0 0rem;
+	}
+
+	.wrapper2 {
+		margin: 0% auto;
+		min-width: 32rem;
+		max-width: 80rem;
+		padding: 0 0rem;
+	}
+
+}
+
+/* ===========================================
+   RESPONSIVE breakpoint 3
+   =========================================== */
+@media(min-width: 50em){
+	section.col > p {
+		float: left;
+		width: 95%;
+	}
+	.deurmatLinks{
+		margin-left:2rem;
+		float:left;
+		width: 32%;
+	}
+
+	.deurmatRechts{
+		float:left;
+		margin-left:2rem;
+		width: 32%;
+	}
+
+	.deurmatMidden{
+		float:left;
+		margin-left:2rem;
+
+		width: 27%;
+	}
+}
